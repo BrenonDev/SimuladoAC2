@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Minha coleção</string>
+    <string name="app_title">Minha coleção</string>
+    <string name="app_subtitle">Organize o que você já viu e o que quer assistir.</string>
+    <string name="form_title">Adicionar obra</string>
+    <string name="label_name">Nome</string>
+    <string name="label_type">Tipo</string>
+    <string name="label_genre">Gênero</string>
+    <string name="label_year">Ano</string>
+    <string name="label_rating">Nota (0 a 10)</string>
+    <string name="label_watched">Já assisti</string>
+    <string name="list_title">Sua lista</string>
+    <string name="label_search">Buscar por nome</string>
+    <string name="filter_type">Filtrar por tipo</string>
+    <string name="filter_watched">Mostrar apenas assistidos</string>
+    <string name="empty_movies">Nenhuma obra encontrada. Cadastre uma ou ajuste os filtros.</string>
+    <string name="action_save">Salvar obra</string>
+    <string name="action_update">Atualizar obra</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="delete_title">Excluir obra</string>
+    <string name="delete_confirmation">Deseja excluir “%1$s”? Esta ação não pode ser desfeita.</string>
+    <string name="error_required_name">Informe o nome.</string>
+    <string name="error_select_type">Selecione um tipo.</string>
+    <string name="error_select_genre">Selecione um gênero.</string>
+    <string name="error_required_year">Informe o ano.</string>
+    <string name="error_required_rating">Informe uma nota.</string>
+    <string name="error_invalid_numbers">Informe um ano e uma nota válidos.</string>
+    <string name="error_rating_range">A nota deve estar entre 0 e 10.</string>
+    <string name="movie_saved">Obra salva no Firestore.</string>
+    <string name="movie_updated">Obra atualizada.</string>
+    <string name="movie_deleted">Obra excluída.</string>
+    <string name="error_loading_movies">Não foi possível carregar a lista: %1$s</string>
+    <string name="error_saving_movie">Não foi possível salvar: %1$s</string>
+    <string name="error_updating_movie">Não foi possível atualizar: %1$s</string>
+    <string name="error_deleting_movie">Não foi possível excluir: %1$s</string>
+    <string name="movie_details">%1$s • %2$s • %3$d</string>
+    <string name="movie_rating">Nota %1$s/10</string>
+    <string name="status_watched">Assistido</string>
+    <string name="status_not_watched">Quero assistir</string>
+    <string-array name="movie_types">
+        <item>Selecione o tipo</item>
+        <item>Filme</item>
+        <item>Série</item>
+        <item>Documentário</item>
+        <item>Animação</item>
+    </string-array>
+    <string-array name="movie_genres">
+        <item>Selecione o gênero</item>
+        <item>Ação</item>
+        <item>Comédia</item>
+        <item>Drama</item>
+        <item>Terror</item>
+        <item>Ficção científica</item>
+        <item>Aventura</item>
+        <item>Romance</item>
+        <item>Suspense</item>
+        <item>Documentário</item>
+    </string-array>
+    <string-array name="movie_type_filters">
+        <item>Todos os tipos</item>
+        <item>Filme</item>
+        <item>Série</item>
+        <item>Documentário</item>
+        <item>Animação</item>
+    </string-array>
+</resources>
